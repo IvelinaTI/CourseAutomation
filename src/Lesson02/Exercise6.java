@@ -1,4 +1,4 @@
-package Automation_AQ;
+package Lesson02;
 
 import java.util.Scanner;
 
