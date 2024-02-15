@@ -9,22 +9,23 @@ public class Exersice0603 {
         //a) If the length of the string is even there will be two middle characters.
         //b) If the length of the string is odd there will be one middle character.
         //Write a Java method to count all words in a string.
+        Exersice0603 myObj = new Exersice0603();
         Scanner scanner = new Scanner(System.in);
-        String word = scanner.nextLine();
-        System.out.println(middleCharacter(word));
+        //String word = scanner.nextLine();
+middleCharacter(scanner.nextLine());
     }
-   public static String middleCharacter (String name) {
+
+    public static void middleCharacter(String name) {
         int length = name.length();
         int i = length / 2;
-        int k = i -1;
+        int k = i - 1;
 
-        if (i%2==0){
+        if (i % 2 == 0) {
             System.out.print(name.charAt(k) + " ");
             System.out.println(name.charAt(i));
         } else {
             System.out.println(name.charAt(i));
         }
-            return name;
-        }
     }
+}
 
