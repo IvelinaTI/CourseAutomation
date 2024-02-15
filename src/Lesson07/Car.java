@@ -2,14 +2,14 @@ package Lesson07;
 
 public class Car {
 
-    String name;
-    String colour;
-    int releaseYear;
-    int horsePower;
-    boolean secondHandTick;
+    public String name;
+    public String colour;
+    public int releaseYear;
+    public int horsePower;
+    public boolean secondHandTick;
 
     public Car (){
-        this.name = "N/A";
+       this.name = "N/A";
         this.colour = "N/A";
         this.releaseYear = -1;
         this.horsePower = -1;
