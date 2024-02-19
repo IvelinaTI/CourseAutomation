@@ -22,7 +22,13 @@ public class Exersice0701 {
         Car thirdCar = new Car();
         {
             String word = thirdCar.getName();
+            int year = thirdCar.getReleaseYear();
             System.out.println(word);
+            System.out.println(year);
+            System.out.println(thirdCar.colour);
+        }
+        Car fourthCar = new Car("toyota", "red", true); {
+            System.out.println(fourthCar.name +" " + fourthCar.colour);
         }
 
     }
